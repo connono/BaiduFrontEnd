@@ -1,0 +1,52 @@
+/* default */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+.body {
+    margin: 30px 20px;
+}
+
+/* header */
+.header {
+    background-color: grey;
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.header h1 {
+    color: white;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+/* resume-item */
+.resume-item {
+    overflow: auto;
+    border-bottom: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+}
+
+.resume-item h2{
+    float: left;
+    background-color: darkgray;
+    text-align: center ;
+    line-height: 120px;
+    font-size: 18px;
+    width: 120px;
+    margin: 0;
+    border-bottom: 1px solid white;
+}
+
+.information-title, .experience-title, .ability-title{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+}

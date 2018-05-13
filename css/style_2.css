@@ -1,0 +1,63 @@
+/* default */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 20px;
+    padding: 0;
+}
+
+/* resume */
+.resume-item {
+    margin-top: 30px;
+}
+
+.information-title, .experience-title, .ability-title {
+    font-weight: bold;
+}
+
+/* information */
+.information-item {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* ability and experience*/
+.ability-item, .experience-item {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.experience-title, .ability-title {
+    display: block;
+}
+
+/* body */
+.body {
+    overflow: auto;
+    background-color: cornflowerblue;
+}
+
+/* sidebar */
+.sidebar {
+    float: left;
+    width: 20%;
+}
+
+.sidebar h1 {
+    text-align: center;
+    color: white;
+    line-height: 160px;
+    font-size: 40px;
+}
+
+/* content */
+.content {
+    float: right;
+    width: 80%;
+    background-color: white;
+    padding-left: 40px;
+}

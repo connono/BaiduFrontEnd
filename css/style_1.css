@@ -1,0 +1,31 @@
+/* default */
+body {
+    margin: 0 20px;
+    padding: 0;
+}
+
+/* resume */
+.resume-item {
+    margin-top: 30px;
+}
+
+/* information */
+.information-item {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.information-title, .ability-title, .experience-title{
+    font-weight: bold;
+}
+
+.ability-title, .experience-title{
+    display: block;
+}
+
+/* ability and experience*/
+.ability-item, .experience-item {
+    margin-top: 10px;
+    font-size: 18px;
+}
